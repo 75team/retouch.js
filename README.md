@@ -5,13 +5,13 @@ The retouch pattern of JavaScript
 
 ## Usage
 
-'''bash
+```bash
 
 npm install retouch
 
-'''
+```
 
-'''js
+```js
 
 var r = require('retouch');
 
@@ -27,4 +27,4 @@ r.mixin(Number.prototype, retouched);
 
 console.log(2.0.double());
 
-'''
+```
